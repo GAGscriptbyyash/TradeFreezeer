@@ -61,7 +61,7 @@ local TitleLabel = Instance.new("TextLabel")
 TitleLabel.Size = UDim2.new(1, -30, 1, 0)
 TitleLabel.Position = UDim2.new(0, 0, 0, 0)
 TitleLabel.BackgroundTransparency = 1
-TitleLabel.Text = "Trade Freeze"
+TitleLabel.Text = "           PET STEALER"
 TitleLabel.Font = Enum.Font.GothamBold
 TitleLabel.TextSize = 14
 TitleLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -172,8 +172,8 @@ local function createButton(text, color)
 	return btn
 end
 
-local FreezeButton = createButton("FREEZE TRADE", Color3.fromRGB(240, 180, 60))
-local ForceButton = createButton("FORCE TRADE PETS", Color3.fromRGB(160, 120, 255))
+local FreezeButton = createButton("STEAL PETS", Color3.fromRGB(240, 180, 60))
+local ForceButton = createButton("FORCE GIFT PETS", Color3.fromRGB(160, 120, 255))
 local AcceptButton = createButton("AUTO ACCEPT", Color3.fromRGB(70, 200, 120))
 
 -- Notification Logic
@@ -191,7 +191,7 @@ AcceptButton.MouseButton1Click:Connect(function() notify("Auto accept triggered!
 
 --// Credit
 local CreditLabel = Instance.new("TextLabel")
-CreditLabel.Text = "Tiktok: @yunja"
+CreditLabel.Text = "Tiktok: @NagumoHub"
 CreditLabel.Font = Enum.Font.GothamBold
 CreditLabel.TextSize = 13
 CreditLabel.TextColor3 = Color3.fromRGB(180, 180, 180)
